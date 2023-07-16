@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.wrapper{
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 15px;
+}
+
+
+h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.2rem;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border:1px solid white;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: whitesmoke;
+    
+}
+button{
+    font-size: 1rem;
+    margin: 1.8rem;
+    padding: 10px 0 ;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+    color: white;
+    background: rgb(18, 115, 153);
+}
+
+
+button:hover{
+    background: rgb(6, 170, 235);
+}
+
+.terms{
+    margin:0.2rem;
+}
+
+.terms input{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label{
+    font-size: 0.7rem;
+
+}
+
+.terms a{
+    color: cyan;
+    text-decoration: none;
+
+}
+
+.member{
+    font-size: 0..8rem;
+    margin-top: 1.4rem;
+    color: aquamarine;
+}
+
+.member a{
+    color: rgb(18, 115, 153);
+    text-decoration: none;
+}
