@@ -14,6 +14,5 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebas
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-
   export const auth =  getAuth(app)
 

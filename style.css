@@ -13,7 +13,6 @@
 
 /* Header/navbar */
 
-
 #logo { 
     width: 20px;
     background: transparent;
@@ -53,6 +52,12 @@
 
 #navbar li a:hover{ 
     color: white;
+}
+
+
+
+.sub-menu-1{
+    display: none;
 }
 
 
@@ -225,6 +230,32 @@
 
 }
 
+
+
+
+.wrapper-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    width: 30%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://i.dummyjson.com/data/products/1/thumbnail.jpg");
+    background-size: cover;
+  }
+  
+  .product-name {
+    color: aliceblue;
+  }
+  
+  .product-price {
+    color: aliceblue;
+  }
 
 
 
