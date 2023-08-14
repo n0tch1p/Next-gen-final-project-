@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- Styles -->
+   
+
+
+
+    <!-- Libaries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+ <section id="header">
+
+<a href="#"><img src="./images/logo.png" class="logo" alt="">
+</a>
+<div>
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="profile.html">Profile</a></li
+        <li><button id="logout-btn">Logout</button></li>
+        <li><span id="welcome-text"></span></li> 
+        <li><button id="auth-btn"></button></li>   
+
+        <div style="margin-right: 25px" class="position-relative">
+            <i id="cart-icon" class="bi bi-cart-check"></i>
+            <span id="cart-quantity" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              0
+            </span>
+          </div>
+        </ul>
+ </div>
+ </section> 
+
+
+
+<section id="prodedetails" class="sec tion-p1">
+    <div class="single-pro-image">
+        <img src="images/f1.jpg" width = "100%" id="MainImg"alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="images/f1.jpg"width="100%" class = "small-img"alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/f2.jpg"width="100%" class = "small-img"alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/f3.jpg"width="100%" class = "small-img"alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="images/f4.jpg"width="100%" class = "small-img"alt="">
+            </div>
+        </div>
+    </div>
+    <div class="single-pro-details">
+        <h6>Home/T-shirts</h6>
+        <h4>Men's T-shirts</h4>
+        <h2>$19.99</h2>
+        <select>
+            <option>Select Size</option>
+            <option>XXL</option>
+            <option>XL</option>
+            <option>L</option>
+            <option>S</option>
+
+        </select>
+        <input type="number" value="1">
+        <button>Add To Cart</button>
+        <h4>Product Details</h4>
+        <span>Very colorfull and bright T-shirt just for the summer </span>
+    </div>
+</section>
+
+
+<section id="product1" class="section-fe">
+    <h2>Featured Products</h2>
+    <p>Our new summer collections </p>
+    <div class="product-container">
+        <div class="prod">
+            <img src="./images/f5.jpg" alt="">
+            <div class="description">
+                <span>Collection</span>
+                <h5>High quality clothing</h5>
+                <div class="review">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>25.99$</h4>
+            </div>
+            <div id="add-to-cart" href="#"><i class="bi bi-cart cart "></i></div>
+        </div>
+        <div class="prod">
+            <img src="./images/f6.jpg" alt="">
+            <div class="description">
+                <span>Collection</span>
+                <h5>High quality clothing</h5>
+                <div class="review">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>25.99$</h4>
+            </div>
+            <div id="add-to-cart" href="#"><i class="bi bi-cart cart "></i></div>
+        </div>
+        <div class="prod">
+            <img src="./images/f7.jpg" alt="">
+            <div class="description">
+                <span>Collection</span>
+                <h5>High quality clothing</h5>
+                <div class="review">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>25.99$</h4>
+            </div>
+            <div id="add-to-cart" href="#"><i class="bi bi-cart cart "></i></div>
+        </div>
+        <div class="prod">
+            <img src="./images/f8.jpg" alt="">
+            <div class="description">
+                <span>Collection</span>
+                <h5>High quality clothing</h5>
+                <div class="review">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4>25.99$</h4>
+            </div>
+            <div id="add-to-cart" href="#"><i class="bi bi-cart cart "></i></div>
+        </div>
+    </div>
+ </section>
+
+
+
+
+<footer class="section-p1">
+    <div class="col">
+        <img class="logo" src="images/logo.png" alt="">
+        <h4>Contact</h4>
+        <p> <strong>Address:</strong> 204 road, street 20, California </p>
+        <p> <strong>Shipping time:</strong>11:00 - 7:00pm, Mon-Sat </p>
+        <p> <strong>Number:</strong>+01 2345 6789 </p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-tiktok"></i>
+
+
+            </div>
+         </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Deliever</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+    </div>
+    
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in </a>
+        <a href="#">View Cart</a>
+        <a href="#">Wishlist </a>
+        <a href="#">Order tracking </a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>Available in app store or google play</p>
+        <div class="row">
+            <img src="images/app.jpg" alt="">
+            <img src="images/pay.png" alt="">
+        </div>
+        <p>secured payments</p>
+        <img src="images/play.jpg" alt="">
+    </div>
+
+    
+</footer>
+
+
+
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var smallimg = document.getElementsByClassName("small-img")
+
+
+    smallimg[0].onclick = function() {
+        MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+
+    
+    
+  
+</script>
+ 
+
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <script type="module" src="./firebase/logout.js"></script>
+    <script type="module" src="./firebase/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
